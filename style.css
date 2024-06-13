@@ -7,9 +7,8 @@
     }
     
 }
-
 .overlay {
-    animation: 3s ease-in 0s 1 fadeout;
+    animation: 1s ease-in 0s 1 fadeout;
     animation-fill-mode: forwards;
     pointer-events: none;
     
@@ -24,22 +23,97 @@
     background-color: rgb(0, 0, 0); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #000000;
+    z-index: 9999;
+}
 
+#loading-bar {
+    width: 0;
+    height: 100%;
+    background-color: #3d3d3d;
+    transition: width 0.3s ease;
 }
 
 
+@keyframes fadeoutcolor{
+    0% {
+        
+        filter: drop-shadow(0 0 0px rgb(0, 0, 0))
+      }
+      100% {
+        filter: drop-shadow(0 0 20px rgb(0, 0, 0))
+        
+        
+    }
+    
+}
+@keyframes fadeincolor{
+    0% {
+        filter: drop-shadow(0 0 20px rgb(0, 0, 0))
+        
+      }
+      100% {
+        
+        filter: drop-shadow(0 0 0px rgb(0, 0, 0))
+        
+    }
+    
+}
+
 .card{
-    border-color: #222222;
+    border-color: #460000;
     border-width:2mm;
+    border-radius: 0px;
     filter: drop-shadow(0px 0px 10px black);
     box-shadow: 0px 0px 10px black inset;
 }
 .card:hover{
-    filter:blur(0);
+    animation: 0.3s ease-in 0s 1 fadeoutcolor;
+    filter: drop-shadow(0 0 20px rgb(0, 0, 0));
+    
 }
 .card{
+    filter: drop-shadow(0 0 0px rgb(255, 0, 0));
+    animation: 0.3s ease-in 0s 1 fadeincolor;
+}
+.btn{
+    color: black;
     
-    filter: blur(2px);
+    background-color: crimson;
+    border-color: rgb(97, 0, 0);
+    border-radius: 0px;
+    border-width: 5px;
+    
+}
+.btn:hover{
+    color: black;
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+    box-shadow: 0px 0px 5px inset;
+    background-color: rgb(190, 0, 38);
+    border-color: rgb(158, 10, 10);
+    border-radius: 0px;
+    border-width: 5px;
+}
+.bodytje{
+    background-color: crimson;
+    
+}
+.card-img-top{
+    border-radius: 0%;
+}
+.navbar{
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border:#000000;
+    border-width: 20px;
 }
 
 html {
