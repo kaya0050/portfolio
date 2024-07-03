@@ -47,7 +47,6 @@ span.rev.phone:after { content:" 60 :enohP" }
     filter: drop-shadow(0 0 0px rgb(255, 0, 0));
     animation: 0.3s ease-in 0s 1 fadeincolor;
 
-    
 }
 .marginbottom{
     margin-bottom: 25px;
@@ -57,7 +56,23 @@ span.rev.phone:after { content:" 60 :enohP" }
     filter: drop-shadow(0 0 20px rgb(0, 0, 0));
     
 }
+.button{
+    color: black;
 
+    background-color: crimson;
+    border-color: rgb(97, 0, 0);
+    border-radius: 0px;
+    border-width: 5px;
+}
+.button:hover{
+    color: black;
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+    box-shadow: 0px 0px 5px inset;
+    background-color: rgb(190, 0, 38);
+    border-color: rgb(158, 10, 10);
+    border-radius: 0px;
+    border-width: 5px;
+}
 .btn{
     color: black;
     position:absolute;
@@ -66,9 +81,10 @@ span.rev.phone:after { content:" 60 :enohP" }
     right: 15px;
     background-color: crimson;
     border-color: rgb(97, 0, 0);
+
     border-radius: 0px;
     border-width: 5px;
-    
+
 }
 .btn:hover{
     color: black;
@@ -78,6 +94,7 @@ span.rev.phone:after { content:" 60 :enohP" }
     border-color: rgb(158, 10, 10);
     border-radius: 0px;
     border-width: 5px;
+    
 }
 .bodytje{
     background-color: crimson;
@@ -85,6 +102,7 @@ span.rev.phone:after { content:" 60 :enohP" }
 }
 .card-img-top{
     border-radius: 0%;
+
 }
 .navbar{
     background-color: crimson;
@@ -92,13 +110,16 @@ span.rev.phone:after { content:" 60 :enohP" }
     text-decoration: none;
     border:#000000;
     border-width: 20px;
+
 }
 
 html {
     overflow: scroll;
     overflow-x: hidden;
+
 }
 ::-webkit-scrollbar {
     width: 0;  
     background: transparent;  
+    
 }
