@@ -60,7 +60,10 @@ span.rev.phone:after { content:" 60 :enohP" }
 
 .btn{
     color: black;
-    
+    position:absolute;
+    margin: 10px;
+    bottom: 15px;
+    right: 15px;
     background-color: crimson;
     border-color: rgb(97, 0, 0);
     border-radius: 0px;
