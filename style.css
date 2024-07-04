@@ -42,6 +42,7 @@ img{
     
 }
 .card{
+    color: #871786;
     border-color: #386445;
     border-width:2mm;
     border-radius: 2%;
@@ -73,18 +74,18 @@ img{
 
 }
 .btn:hover{
-    color: black;
-    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
-    box-shadow: 0px 0px 5px inset;
-    background-color: rgb(87, 165, 93);
+    
+    filter: drop-shadow(0 0 5px rgb(71, 104, 71));
+    
+    background-color: rgb(77, 117, 81);
     border-radius: 5%;
-    border-color: rgb(32, 68, 32);
+    border-color: rgb(71, 104, 71);
     border-radius: 0px;
     border-width: 5px;
     
 }
 .bodytje{
-    background-color: rgb(216, 255, 109);
+    background-color: #82c476;
     
     border-width: 20px;
 
@@ -94,13 +95,29 @@ img{
 
 }
 .navbar{
-    background-color: rgb(51, 110, 49);
+    background-color:#227549;
     text-decoration: none;
+    color:  #82c476;
     border:#000000;
     border-width: 20px;
-
+    padding-right: 10px;
 }
 
+
+
+.navi{
+    color:  #82c476;
+    text-decoration: none;
+    
+    margin-right: 10px;
+}
+.lead{
+    color:#871786;
+}
+.title{
+    color:#871786;
+    
+}
 html {
     overflow: scroll;
     overflow-x: hidden;
