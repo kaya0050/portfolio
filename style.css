@@ -39,17 +39,15 @@ span.rev.phone:after { content:" 60 :enohP" }
 }
 img{
     border-radius: 0%;
-    filter: drop-shadow(0px 0px 10px black);
-    box-shadow: 0px 0px 10px black inset;
-    filter: drop-shadow(0 0 0px rgb(108, 117, 255));
+    
 }
 .card{
-    border-color: #5f43ff;
+    border-color: #386445;
     border-width:2mm;
     border-radius: 2%;
-    filter: drop-shadow(0px 0px 10px rgb(108, 117, 255));
+    filter: drop-shadow(0px 0px 10px rgb(39, 77, 47));
     box-shadow: 0px 0px 10pxrgb(108, 117, 255) inset;
-    filter: drop-shadow(0 0 0px rgb(108, 117, 255));
+    filter: drop-shadow(0 0 0px rgb(30, 58, 38));
     animation: 0.3s ease-in 0s 1 fadeincolor;
 
 }
@@ -67,8 +65,8 @@ img{
     margin: 10px;
     bottom: 15px;
     right: 15px;
-    background-color: rgb(0, 38, 255);
-    border-color: rgb(0, 2, 102);
+    background-color: rgb(78, 143, 73);
+    border-color: rgb(42, 82, 45);
     border-radius: 2%;
     border-radius: 0px;
     border-width: 5px;
@@ -78,24 +76,25 @@ img{
     color: black;
     filter: drop-shadow(0 0 5px rgb(0, 0, 0));
     box-shadow: 0px 0px 5px inset;
-    background-color: rgb(84, 82, 255);
+    background-color: rgb(87, 165, 93);
     border-radius: 5%;
-    border-color: rgb(0, 9, 94);
+    border-color: rgb(32, 68, 32);
     border-radius: 0px;
     border-width: 5px;
     
 }
 .bodytje{
-    background-color: rgb(214, 255, 100);
+    background-color: rgb(216, 255, 109);
     
+    border-width: 20px;
+
 }
 .card-img-top{
     border-radius: 0%;
 
 }
 .navbar{
-    background-color: rgb(77, 95, 255);
-    
+    background-color: rgb(51, 110, 49);
     text-decoration: none;
     border:#000000;
     border-width: 20px;
