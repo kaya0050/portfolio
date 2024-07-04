@@ -37,14 +37,19 @@ span.rev.phone:after { content:" 60 :enohP" }
     }
     
 }
-
-.card{
-    border-color: #460000;
-    border-width:2mm;
-    border-radius: 0px;
+img{
+    border-radius: 0%;
     filter: drop-shadow(0px 0px 10px black);
     box-shadow: 0px 0px 10px black inset;
-    filter: drop-shadow(0 0 0px rgb(255, 0, 0));
+    filter: drop-shadow(0 0 0px rgb(108, 117, 255));
+}
+.card{
+    border-color: #5f43ff;
+    border-width:2mm;
+    border-radius: 2%;
+    filter: drop-shadow(0px 0px 10px rgb(108, 117, 255));
+    box-shadow: 0px 0px 10pxrgb(108, 117, 255) inset;
+    filter: drop-shadow(0 0 0px rgb(108, 117, 255));
     animation: 0.3s ease-in 0s 1 fadeincolor;
 
 }
@@ -56,32 +61,15 @@ span.rev.phone:after { content:" 60 :enohP" }
     filter: drop-shadow(0 0 20px rgb(0, 0, 0));
     
 }
-.button{
-    color: black;
 
-    background-color: crimson;
-    border-color: rgb(97, 0, 0);
-    border-radius: 0px;
-    border-width: 5px;
-}
-.button:hover{
-    color: black;
-    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
-    box-shadow: 0px 0px 5px inset;
-    background-color: rgb(190, 0, 38);
-    border-color: rgb(158, 10, 10);
-    border-radius: 0px;
-    border-width: 5px;
-}
-.btn{
-    color: black;
+.btn{ 
     position:absolute;
     margin: 10px;
     bottom: 15px;
     right: 15px;
-    background-color: crimson;
-    border-color: rgb(97, 0, 0);
-
+    background-color: rgb(0, 38, 255);
+    border-color: rgb(0, 2, 102);
+    border-radius: 2%;
     border-radius: 0px;
     border-width: 5px;
 
@@ -90,14 +78,15 @@ span.rev.phone:after { content:" 60 :enohP" }
     color: black;
     filter: drop-shadow(0 0 5px rgb(0, 0, 0));
     box-shadow: 0px 0px 5px inset;
-    background-color: rgb(190, 0, 38);
-    border-color: rgb(158, 10, 10);
+    background-color: rgb(84, 82, 255);
+    border-radius: 5%;
+    border-color: rgb(0, 9, 94);
     border-radius: 0px;
     border-width: 5px;
     
 }
 .bodytje{
-    background-color: crimson;
+    background-color: rgb(214, 255, 100);
     
 }
 .card-img-top{
@@ -105,8 +94,8 @@ span.rev.phone:after { content:" 60 :enohP" }
 
 }
 .navbar{
-    background-color: crimson;
-    color: rgb(255, 255, 255);
+    background-color: rgb(77, 95, 255);
+    
     text-decoration: none;
     border:#000000;
     border-width: 20px;
