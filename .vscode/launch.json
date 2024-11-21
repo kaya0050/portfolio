@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/kayab/AppData/Local/Temp/e8e20b2f-ae9e-452b-abe9-25c9b910f8c0_cubesphere.zip.8c0/cubesphere/src",
+      "program": "c:/Users/kayab/AppData/Local/Temp/e8e20b2f-ae9e-452b-abe9-25c9b910f8c0_cubesphere.zip.8c0/cubesphere/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
